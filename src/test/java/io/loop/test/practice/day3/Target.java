@@ -5,7 +5,6 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-
 /*
 Open Chrome browser
 Go to https://www.target.com/
@@ -21,13 +20,10 @@ public class Target {
         driver.get("https://www.target.com");
 
         WebElement searchBoxWithId = driver.findElement(By.name("searchTerm"));
-
         Thread.sleep(3000);
-
         searchBoxWithId.click();
 
         String textSearch = "wooden spoon";
-
         searchBoxWithId.sendKeys(textSearch + Keys.ENTER);
 
         String expectedTitle = "Target";

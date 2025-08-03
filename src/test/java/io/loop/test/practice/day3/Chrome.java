@@ -16,27 +16,22 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Chrome {
     public static void main(String[] args) throws InterruptedException {
-
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
 
         driver.get("https://www.google.com/");
 
         Thread.sleep(3000);
-
         WebElement clickGmail = driver.findElement(By.className("gb_X"));
-
         clickGmail.click();
 
         Thread.sleep(3000);
-
        String expectedTitle = "Gmail";
        String actualTitle = driver.getTitle();
 
        if (actualTitle.contains(expectedTitle)) {
            System.out.println("Actual title is " + expectedTitle + " => test PASS" );
-       }
-       else {
+       } else {
            System.err.println(" => test FAIL");
        }
 
@@ -52,8 +47,5 @@ public class Chrome {
         else {
             System.err.println(" => test FAIL");
         }
-
         driver.quit();
-
-    }
-}
+    }}
