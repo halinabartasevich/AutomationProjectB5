@@ -8,6 +8,8 @@ Validate title:
 Expected: “Target”
  */
 
+import io.loop.test.utilities.GeneralConstants;
+import io.loop.test.utilities.WebDriverUtil;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -17,20 +19,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class Test {
     public static void main(String[] args) throws InterruptedException {
 
-        WebDriver driver = new ChromeDriver();
-        driver.manage().window().maximize();
-
-        driver.get("https://www.amazon.com");
-
-        WebElement searchBoxWithId = driver.findElement(By.id("twotabsearchtextbox"));
-
-        searchBoxWithId.click();
-
-        String str = "wooden spoon";
-
-
-        searchBoxWithId.sendKeys(str + Keys.TAB + Keys.ENTER);
-
+        WebDriver driver = WebDriverUtil.getDriver(GeneralConstants.CHROME);
 
 
 
