@@ -59,10 +59,5 @@ public class Locators {
         //click this link
         aboutLink.sendKeys();
 
-
-
-
-
-
     }
 }
