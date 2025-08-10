@@ -21,7 +21,7 @@ public class T1_DocuportLogin_getText {
     public static void main(String[] args) {
 
 
-        // het driver and navigate to the docuport page
+        // get driver and navigate to the docuport page
         WebDriver driver = WebDriverUtil.getDriver(GeneralConstants.CHROME);
         driver.manage().window().maximize();
         driver.get(DocuporConstans.DOCUPORT_TEST);    // driver.get("https://beta.docuport.app");
@@ -33,7 +33,7 @@ public class T1_DocuportLogin_getText {
         username.sendKeys(DocuporConstans.USERNAME_CLIENT);
 
 
-        // spy  locate / inspecr login butoon and click it
+        // spy  locate / inspect login button and click it
         WebElement loginButton = driver.findElement(By.className("v-btn__content"));
         loginButton.click();
 

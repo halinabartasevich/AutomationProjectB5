@@ -1,10 +1,10 @@
 package io.loop.test.day4;
 /*
 Open Chrome browser
-Go to https://www.target.com/
+Go to https://www.etsy.com/
 Search for “wooden spoon”
 Validate title:
-Expected: “Target”
+Expected: “Wooden spoon - Etsy”
 
  */
 

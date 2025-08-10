@@ -32,7 +32,7 @@ public class T3_css_practice {
         driver.manage().window().maximize();
         driver.navigate().to(DocuporConstans.DOCUPORT_TEST);
 
-        // locate teh element with CSS
+        // locate the element with CSS
         WebElement logo = driver.findElement(By.cssSelector("img[src='/img/logo.d7557277.svg']"));
 
 

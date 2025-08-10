@@ -10,7 +10,7 @@ import org.openqa.selenium.WebElement;
 public class T4_forgot_password {
     public static void main(String[] args) {
 
-        //get driber maximaze
+        //get driver maximaze
         WebDriver driver = WebDriverUtil.getDriver(GeneralConstants.CHROME);
         driver.manage().window().maximize();
 
@@ -22,7 +22,7 @@ public class T4_forgot_password {
         WebElement forgetPasswordLink = driver.findElement(By.cssSelector("a[href='/reset-password']"));
         forgetPasswordLink.click();
 
-        // locate forgor password heading
+        // locate forgot password heading
         WebElement forgetPasswordHeading = driver.findElement(By.cssSelector("div[class='login-layout__form']>h1"));
         System.out.println(forgetPasswordHeading.getText());
 
