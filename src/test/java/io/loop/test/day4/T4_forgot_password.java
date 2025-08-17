@@ -1,6 +1,6 @@
 package io.loop.test.day4;
 
-import io.loop.test.utilities.DocuporConstans;
+import io.loop.test.utilities.DocuportConstants;
 import io.loop.test.utilities.GeneralConstants;
 import io.loop.test.utilities.WebDriverUtil;
 import org.openqa.selenium.By;
@@ -16,7 +16,7 @@ public class T4_forgot_password {
 
 
         // go to the url
-        driver.get(DocuporConstans.DOCUPORT_TEST);
+        driver.get(DocuportConstants.DOCUPORT_TEST);
 
         // locate the forget password link with css and click
         WebElement forgetPasswordLink = driver.findElement(By.cssSelector("a[href='/reset-password']"));

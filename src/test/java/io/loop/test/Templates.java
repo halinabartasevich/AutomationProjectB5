@@ -1,6 +1,4 @@
-package io.loop.test.practice;
-
-import org.openqa.selenium.chrome.ChromeOptions;
+package io.loop.test;
 
 public class Templates {
     public static void main(String[] args) {
