@@ -4,23 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="480aa928-3edb-4170-af1e-1eb44539d0b2" name="Changes" comment="day4">
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day5/T2_xpath_getText.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day5/T3_findElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day5/T4_radioButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day5/kT1_css_isDisplayed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/day4/T1_DocuportLogin_getText.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day4/T1_DocuportLogin_getText.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/day4/T3_css_practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day4/T3_css_practice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/day4/T4_forgot_password.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day4/T4_forgot_password.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/practice/Templates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/Templates.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/practice/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/practice/day3/Chrome.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/practice/day3/Target.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/DocuporConstans.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/DocuportConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/GeneralConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/GeneralConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/LoopCampConstans.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/LoopCampConstans.java" afterDir="false" />
-    </list>
+    <list default="true" id="480aa928-3edb-4170-af1e-1eb44539d0b2" name="Changes" comment="day4" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,7 +20,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="day4" />
+        <entry key="$PROJECT_DIR$" value="day5" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -63,50 +47,50 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AllLocatorsPractice.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Chrome.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ChromeOptionsPractice.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GoogleSearch.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Halina.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Locators.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NavigateToAmazon.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SeleniumTEst.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SeleniumTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.T1_DocuportLogin_getText.executor&quot;: &quot;Run&quot;,
-    &quot;Application.T1_css_isDisplayed.executor&quot;: &quot;Run&quot;,
-    &quot;Application.T2_getText_getAtribute.executor&quot;: &quot;Run&quot;,
-    &quot;Application.T2_xpath_getText.executor&quot;: &quot;Run&quot;,
-    &quot;Application.T3_css_practice.executor&quot;: &quot;Run&quot;,
-    &quot;Application.T3_findElements.executor&quot;: &quot;Run&quot;,
-    &quot;Application.T4_forgot_password.executor&quot;: &quot;Run&quot;,
-    &quot;Application.T4_radioButton.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TO_Temu.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Target.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Temu.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.kT1_css_isDisplayed.executor&quot;: &quot;Run&quot;,
-    &quot;Application.myRun.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;day5&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Hbart/IdeaProjects/AutomationProjectB5&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Hbart/IdeaProjects/AutomationProjectB5/src/main/java/io/loop/test/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AllLocatorsPractice.executor": "Run",
+    "Application.Chrome.executor": "Run",
+    "Application.ChromeOptionsPractice.executor": "Run",
+    "Application.GoogleSearch.executor": "Run",
+    "Application.Halina.executor": "Run",
+    "Application.Locators.executor": "Run",
+    "Application.NavigateToAmazon.executor": "Run",
+    "Application.SeleniumTEst.executor": "Run",
+    "Application.SeleniumTest.executor": "Run",
+    "Application.T1_DocuportLogin_getText.executor": "Run",
+    "Application.T1_css_isDisplayed.executor": "Run",
+    "Application.T2_getText_getAtribute.executor": "Run",
+    "Application.T2_xpath_getText.executor": "Run",
+    "Application.T3_css_practice.executor": "Run",
+    "Application.T3_findElements.executor": "Run",
+    "Application.T4_forgot_password.executor": "Run",
+    "Application.T4_radioButton.executor": "Run",
+    "Application.TO_Temu.executor": "Run",
+    "Application.Target.executor": "Run",
+    "Application.Temu.executor": "Run",
+    "Application.Test.executor": "Run",
+    "Application.kT1_css_isDisplayed.executor": "Run",
+    "Application.myRun.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Hbart/IdeaProjects/AutomationProjectB5",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/Hbart/IdeaProjects/AutomationProjectB5/src/main/java/io/loop/test/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.T3_findElements">
     <configuration name="Chrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.loop.test.practice.day3.Chrome" />
@@ -329,7 +313,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754245964110</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="day4">
+      <option name="closed" value="true" />
+      <created>1755437291065</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1755437291065</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
