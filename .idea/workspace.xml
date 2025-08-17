@@ -91,7 +91,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.T3_findElements">
+  <component name="RunManager" selected="Application.Halina">
     <configuration name="Chrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.loop.test.practice.day3.Chrome" />
       <module name="AutomationProjectB5" />
@@ -207,11 +207,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.T1_css_isDisplayed" />
+        <item itemvalue="Application.Chrome" />
+        <item itemvalue="Application.T4_radioButton" />
         <item itemvalue="Application.T3_findElements" />
         <item itemvalue="Application.kT1_css_isDisplayed" />
-        <item itemvalue="Application.T1_css_isDisplayed" />
-        <item itemvalue="Application.T4_radioButton" />
-        <item itemvalue="Application.Chrome" />
       </list>
     </recent_temporary>
   </component>
