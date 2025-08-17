@@ -4,13 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="480aa928-3edb-4170-af1e-1eb44539d0b2" name="Changes" comment="13">
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/practice/Templates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/practice/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/practice/day3/Chrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/practice/day3/Target.java" afterDir="false" />
+    <list default="true" id="480aa928-3edb-4170-af1e-1eb44539d0b2" name="Changes" comment="day4">
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day5/T2_xpath_getText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day5/T3_findElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day5/T4_radioButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day5/kT1_css_isDisplayed.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/day3/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day3/Locators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/day4/T1_DocuportLogin_getText.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day4/T1_DocuportLogin_getText.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/day4/T3_css_practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day4/T3_css_practice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/day4/T4_forgot_password.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day4/T4_forgot_password.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/practice/Templates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/Templates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/practice/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/practice/day3/Chrome.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/practice/day3/Target.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/DocuporConstans.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/DocuportConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/GeneralConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/GeneralConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/LoopCampConstans.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/LoopCampConstans.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +36,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="day2" />
+        <entry key="$PROJECT_DIR$" value="day4" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -45,7 +54,7 @@
   }
 }</component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 3
+  &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="3091AOrtLkUjdYH1hwSScN6zGuB" />
   <component name="ProjectLevelVcsManager">
@@ -54,46 +63,55 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AllLocatorsPractice.executor": "Run",
-    "Application.Chrome.executor": "Run",
-    "Application.ChromeOptionsPractice.executor": "Run",
-    "Application.GoogleSearch.executor": "Run",
-    "Application.Locators.executor": "Run",
-    "Application.NavigateToAmazon.executor": "Run",
-    "Application.SeleniumTEst.executor": "Run",
-    "Application.SeleniumTest.executor": "Run",
-    "Application.Target.executor": "Run",
-    "Application.Temu.executor": "Run",
-    "Application.Test.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "onboarding.tips.debug.path": "C:/Users/Hbart/IdeaProjects/AutomationProjectB5/src/main/java/io/loop/test/Main.java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AllLocatorsPractice.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Chrome.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ChromeOptionsPractice.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GoogleSearch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Halina.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Locators.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NavigateToAmazon.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SeleniumTEst.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SeleniumTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.T1_DocuportLogin_getText.executor&quot;: &quot;Run&quot;,
+    &quot;Application.T1_css_isDisplayed.executor&quot;: &quot;Run&quot;,
+    &quot;Application.T2_getText_getAtribute.executor&quot;: &quot;Run&quot;,
+    &quot;Application.T2_xpath_getText.executor&quot;: &quot;Run&quot;,
+    &quot;Application.T3_css_practice.executor&quot;: &quot;Run&quot;,
+    &quot;Application.T3_findElements.executor&quot;: &quot;Run&quot;,
+    &quot;Application.T4_forgot_password.executor&quot;: &quot;Run&quot;,
+    &quot;Application.T4_radioButton.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TO_Temu.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Target.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Temu.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.kT1_css_isDisplayed.executor&quot;: &quot;Run&quot;,
+    &quot;Application.myRun.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;day5&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Hbart/IdeaProjects/AutomationProjectB5&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Hbart/IdeaProjects/AutomationProjectB5/src/main/java/io/loop/test/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="AllLocatorsPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.loop.test.day3.AllLocatorsPractice" />
-      <module name="AutomationProjectB5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.loop.test.day3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}</component>
+  <component name="RunManager" selected="Application.T3_findElements">
     <configuration name="Chrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.loop.test.practice.day3.Chrome" />
       <module name="AutomationProjectB5" />
+      <option name="VM_PARAMETERS" value="--enable-native-access=ALL-UNNAMED" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="io.loop.test.practice.day3.*" />
@@ -104,12 +122,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GoogleSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.loop.test.day3.GoogleSearch" />
+    <configuration name="Halina" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="io.loop.test.day5.T2_xpath_getText" />
+      <module name="AutomationProjectB5" />
+      <option name="VM_PARAMETERS" value="--enable-native-access=ALL-UNNAMED" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T1_css_isDisplayed" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.loop.test.day5.T1_css_isDisplayed" />
       <module name="AutomationProjectB5" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.loop.test.day3.*" />
+          <option name="PATTERN" value="io.loop.test.day5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +143,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Target" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.loop.test.practice.day3.Target" />
+    <configuration name="T3_findElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.loop.test.day5.T3_findElements" />
       <module name="AutomationProjectB5" />
+      <option name="VM_PARAMETERS" value="--enable-native-access=ALL-UNNAMED" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.loop.test.practice.day3.*" />
+          <option name="PATTERN" value="io.loop.test.day5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +157,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.loop.test.practice.Test" />
+    <configuration name="T4_radioButton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.loop.test.day5.T4_radioButton" />
       <module name="AutomationProjectB5" />
+      <option name="VM_PARAMETERS" value="--enable-native-access=ALL-UNNAMED" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.loop.test.practice.*" />
+          <option name="PATTERN" value="io.loop.test.day5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,16 +171,75 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <module name="AutomationProjectB5" />
+      <option name="VM_PARAMETERS" value="--enable-native-access=ALL-UNNAMED" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="kT1_css_isDisplayed" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.loop.test.day5.kT1_css_isDisplayed" />
+      <module name="AutomationProjectB5" />
+      <option name="VM_PARAMETERS" value="--enable-native-access=ALL-UNNAMED" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.loop.test.day5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Halina" type="TestNG" singleton="false">
+      <module name="AutomationProjectB5" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Halina" />
+      <item itemvalue="Application.kT1_css_isDisplayed" />
+      <item itemvalue="Application.T3_findElements" />
+      <item itemvalue="Application.T4_radioButton" />
+      <item itemvalue="Application.Chrome" />
+      <item itemvalue="Application.T1_css_isDisplayed" />
+      <item itemvalue="TestNG.Halina" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Target" />
+        <item itemvalue="Application.T3_findElements" />
+        <item itemvalue="Application.kT1_css_isDisplayed" />
+        <item itemvalue="Application.T1_css_isDisplayed" />
+        <item itemvalue="Application.T4_radioButton" />
         <item itemvalue="Application.Chrome" />
-        <item itemvalue="Application.GoogleSearch" />
-        <item itemvalue="Application.AllLocatorsPractice" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17011.79" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17011.79" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="480aa928-3edb-4170-af1e-1eb44539d0b2" name="Changes" comment="" />
@@ -160,6 +247,47 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753024832139</updated>
+      <workItem from="1754837271612" duration="21000" />
+      <workItem from="1754837342019" duration="23000" />
+      <workItem from="1754837446549" duration="4453000" />
+      <workItem from="1754842512070" duration="79000" />
+      <workItem from="1754842640434" duration="1054000" />
+      <workItem from="1754843717216" duration="1133000" />
+      <workItem from="1754844868810" duration="8784000" />
+      <workItem from="1754853761907" duration="2009000" />
+      <workItem from="1754865668320" duration="18000" />
+      <workItem from="1754865700452" duration="11000" />
+      <workItem from="1754865739112" duration="7000" />
+      <workItem from="1754865822720" duration="5000" />
+      <workItem from="1754865891988" duration="6000" />
+      <workItem from="1754867443239" duration="27000" />
+      <workItem from="1754867520558" duration="16000" />
+      <workItem from="1754869795796" duration="59000" />
+      <workItem from="1754883713925" duration="1245000" />
+      <workItem from="1754886478549" duration="51000" />
+      <workItem from="1754886593883" duration="23000" />
+      <workItem from="1754886697532" duration="33000" />
+      <workItem from="1754980538378" duration="6082000" />
+      <workItem from="1755114897912" duration="7000" />
+      <workItem from="1755138555724" duration="134000" />
+      <workItem from="1755139913954" duration="10000" />
+      <workItem from="1755139990470" duration="430000" />
+      <workItem from="1755140953442" duration="28000" />
+      <workItem from="1755140996228" duration="36000" />
+      <workItem from="1755207732743" duration="15000" />
+      <workItem from="1755207760660" duration="82000" />
+      <workItem from="1755380338836" duration="161000" />
+      <workItem from="1755380546199" duration="3036000" />
+      <workItem from="1755391286864" duration="24000" />
+      <workItem from="1755392512660" duration="9000" />
+      <workItem from="1755394227588" duration="3685000" />
+      <workItem from="1755398987769" duration="165000" />
+      <workItem from="1755399948484" duration="770000" />
+      <workItem from="1755401510873" duration="165000" />
+      <workItem from="1755402014321" duration="14000" />
+      <workItem from="1755403927486" duration="34000" />
+      <workItem from="1755404220137" duration="16000" />
+      <workItem from="1755404282088" duration="49000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <option name="closed" value="true" />
@@ -185,14 +313,34 @@
       <option name="project" value="LOCAL" />
       <updated>1753036098072</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="13">
+      <option name="closed" value="true" />
+      <created>1754228099507</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1754228099507</updated>
+    </task>
+    <task id="LOCAL-00005" summary="day4">
+      <option name="closed" value="true" />
+      <created>1754245964110</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1754245964110</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
     <MESSAGE value="commit123" />
     <MESSAGE value="13" />
-    <option name="LAST_COMMIT_MESSAGE" value="13" />
+    <MESSAGE value="day4" />
+    <option name="LAST_COMMIT_MESSAGE" value="day4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -204,8 +352,22 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/io/loop/test/practice/day3/Target.java</url>
-          <line>15</line>
+          <line>14</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/io/loop/test/day5/T2_xpath_getText.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/io/loop/test/day4/T3_css_practice.java</url>
+          <line>27</line>
+          <properties class="io.loop.test.day4.T3_css_practice" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
