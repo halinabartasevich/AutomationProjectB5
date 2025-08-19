@@ -1,6 +1,6 @@
 package io.loop.test.utilities;
 
-public class LoopCampConstans {
+public class LoopCampConstants {
 
     // url for registration form
     public  static final String REGISTRATION_FORM_URL = "https://loopcamp.vercel.app/registration_form.html";
@@ -13,7 +13,5 @@ public class LoopCampConstans {
     public static final String EXPECTED_POWERED_BY_LOOPCAMP = "Powered by LOOPCAMP";
 
 
-
-
-
+    public static final String RADIO_BUTTON_URL = "https://loopcamp.vercel.app/radio-buttons.html";
 }

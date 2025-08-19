@@ -1,13 +1,11 @@
 package io.loop.test.practice.day4;
 
-import io.loop.test.utilities.DocuporConstans;
+import io.loop.test.utilities.DocuportConstants;
 import io.loop.test.utilities.GeneralConstants;
 import io.loop.test.utilities.WebDriverUtil;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-
-import java.util.TreeMap;
 
 /*
 task 3
@@ -23,7 +21,7 @@ public class Task3 {
         driver.manage().window().maximize();
 
         //navigate to docuport application
-        driver.navigate().to(DocuporConstans.DOCUPORT_TEST);
+        driver.navigate().to(DocuportConstants.DOCUPORT_TEST);
 
         // validate placeholders for user name and password
         WebElement usernameField = driver.findElement(By.cssSelector("label[for='input-14']"));
@@ -49,13 +47,13 @@ public class Task3 {
         String expectedErrorUsername = "Please enter your username or email address";
         String expectedErrorPassword = "Please enter your password";
 
-        if (DocuporConstans.ERROR_MESSAGE_FOR_EMPTY_USERNAME.equals(expectedErrorUsername)){
+        if (DocuportConstants.ERROR_MESSAGE_FOR_EMPTY_USERNAME.equals(expectedErrorUsername)){
             System.out.println("Expected error message for empty Username: \"" + expectedErrorUsername + "\" matches with actual error message:  => TEST PASS");
         } else {
             System.out.println("Expected error message for empty Username: \"" + expectedErrorUsername + "\" DOES NOT match with actual error message:  => TEST FAIL");
         }
 
-        if (DocuporConstans.ERROR_MESSAGE_FOR_EMPTY_PASSWORD.equals(expectedErrorPassword)) {
+        if (DocuportConstants.ERROR_MESSAGE_FOR_EMPTY_PASSWORD.equals(expectedErrorPassword)) {
             System.out.println("Expected error message for empty Password: \"" + expectedErrorPassword + "\" matches with actual error message:  => TEST PASS");
         } else {
             System.out.println("Expected error message for empty Password: \"" + expectedErrorPassword + "\" DOES NOT match with actual error message:  => TEST FAIL");

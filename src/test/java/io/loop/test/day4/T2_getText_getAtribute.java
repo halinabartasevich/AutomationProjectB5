@@ -1,8 +1,7 @@
 package io.loop.test.day4;
 
-import com.sun.security.jgss.GSSUtil;
 import io.loop.test.utilities.GeneralConstants;
-import io.loop.test.utilities.LoopCampConstans;
+import io.loop.test.utilities.LoopCampConstants;
 import io.loop.test.utilities.WebDriverUtil;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -20,7 +19,7 @@ public class T2_getText_getAtribute {
         //go to the URL
         WebDriver driver = WebDriverUtil.getDriver(GeneralConstants.CHROME);
         driver.manage().window().maximize();
-        driver.navigate().to(LoopCampConstans.REGISTRATION_FORM_URL);
+        driver.navigate().to(LoopCampConstants.REGISTRATION_FORM_URL);
 
         // spy / locate the element - header
         WebElement header = driver.findElement(By.tagName("h2"));
@@ -29,10 +28,10 @@ public class T2_getText_getAtribute {
         String actualHeaderForForm = header.getText();
 
         // validation
-        if (actualHeaderForForm.equals(LoopCampConstans.EXPECTED_HEADER_FOR_FORM)) {
-            System.out.println("expected header for form: \"" + LoopCampConstans.EXPECTED_HEADER_FOR_FORM + "\", matches actual header: \"" + actualHeaderForForm + "\" => TEST PASS");
+        if (actualHeaderForForm.equals(LoopCampConstants.EXPECTED_HEADER_FOR_FORM)) {
+            System.out.println("expected header for form: \"" + LoopCampConstants.EXPECTED_HEADER_FOR_FORM + "\", matches actual header: \"" + actualHeaderForForm + "\" => TEST PASS");
         } else {
-            System.out.println("expected header for form: \"" + LoopCampConstans.EXPECTED_HEADER_FOR_FORM + "\", DOES NOT match actual header: \"" + actualHeaderForForm + "\" => TEST FAIL");
+            System.out.println("expected header for form: \"" + LoopCampConstants.EXPECTED_HEADER_FOR_FORM + "\", DOES NOT match actual header: \"" + actualHeaderForForm + "\" => TEST FAIL");
         }
 
 
@@ -41,11 +40,11 @@ public class T2_getText_getAtribute {
        String actualPlaceholderForFirstName = firstNamePlaceholder.getAttribute("placeholder");
 
        //validation
-       if (actualPlaceholderForFirstName.equals(LoopCampConstans.EXPECTED_PLACEHOLDER_FOR_FIRSTNAME) )
+       if (actualPlaceholderForFirstName.equals(LoopCampConstants.EXPECTED_PLACEHOLDER_FOR_FIRSTNAME) )
        {
-           System.out.println("expected placeholder for form: \"" + LoopCampConstans.EXPECTED_PLACEHOLDER_FOR_FIRSTNAME + "\", matches actual placeholder: \"" + actualPlaceholderForFirstName + "\" => TEST PASS");
+           System.out.println("expected placeholder for form: \"" + LoopCampConstants.EXPECTED_PLACEHOLDER_FOR_FIRSTNAME + "\", matches actual placeholder: \"" + actualPlaceholderForFirstName + "\" => TEST PASS");
        } else {
-           System.out.println("expected placeholder for form: \"" + LoopCampConstans.EXPECTED_PLACEHOLDER_FOR_FIRSTNAME + "\", matches actual placeholder: \"" + actualPlaceholderForFirstName + "\" => TEST FAIL");
+           System.out.println("expected placeholder for form: \"" + LoopCampConstants.EXPECTED_PLACEHOLDER_FOR_FIRSTNAME + "\", matches actual placeholder: \"" + actualPlaceholderForFirstName + "\" => TEST FAIL");
        }
 
     }

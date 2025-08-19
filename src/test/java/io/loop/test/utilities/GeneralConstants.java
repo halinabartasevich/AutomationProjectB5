@@ -8,5 +8,6 @@ public class GeneralConstants {
     public static final String SAFARI = "safari";
 
 
-
+    // herokuapp url
+    public static final String  HEROKUAPP = "https://the-internet.herokuapp.com/forgot_password";
 }
