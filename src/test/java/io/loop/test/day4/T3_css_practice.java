@@ -1,6 +1,6 @@
 package io.loop.test.day4;
 
-import io.loop.test.utilities.DocuporConstans;
+import io.loop.test.utilities.DocuportConstants;
 import io.loop.test.utilities.GeneralConstants;
 import io.loop.test.utilities.WebDriverUtil;
 import org.openqa.selenium.By;
@@ -30,7 +30,7 @@ public class T3_css_practice {
         // go to the docuport url
         WebDriver driver = WebDriverUtil.getDriver(GeneralConstants.CHROME);
         driver.manage().window().maximize();
-        driver.navigate().to(DocuporConstans.DOCUPORT_TEST);
+        driver.navigate().to(DocuportConstants.DOCUPORT_TEST);
 
         // locate the element with CSS
         WebElement logo = driver.findElement(By.cssSelector("img[src='/img/logo.d7557277.svg']"));
@@ -45,10 +45,10 @@ public class T3_css_practice {
 
 
         // validation
-        if (DocuporConstans.EXPECTED_LOGO_DOCUPORT.equals(actualLogoDocuport)) {
-            System.out.println("expected logo: \"" + DocuporConstans.EXPECTED_LOGO_DOCUPORT + "\", matches actual logo: \"" + actualLogoDocuport + "\" => TEST PASS");
+        if (DocuportConstants.EXPECTED_LOGO_DOCUPORT.equals(actualLogoDocuport)) {
+            System.out.println("expected logo: \"" + DocuportConstants.EXPECTED_LOGO_DOCUPORT + "\", matches actual logo: \"" + actualLogoDocuport + "\" => TEST PASS");
         } else {
-            System.out.println("expected logo: \"" + DocuporConstans.EXPECTED_LOGO_DOCUPORT + "\", DOES NOT match actual logo: \"" + actualLogoDocuport + "\" => TEST FAIL");
+            System.out.println("expected logo: \"" + DocuportConstants.EXPECTED_LOGO_DOCUPORT + "\", DOES NOT match actual logo: \"" + actualLogoDocuport + "\" => TEST FAIL");
         }
 
 

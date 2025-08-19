@@ -1,6 +1,6 @@
 package io.loop.test.practice.day4;
 
-import io.loop.test.utilities.DocuporConstans;
+import io.loop.test.utilities.DocuportConstants;
 import io.loop.test.utilities.GeneralConstants;
 import io.loop.test.utilities.WebDriverUtil;
 import org.openqa.selenium.By;
@@ -32,7 +32,7 @@ public class Task4 {
 
       // go to URL
       WebDriver driver = new WebDriverUtil().getDriver(GeneralConstants.CHROME);
-      driver.navigate().to(DocuporConstans.DOCUPORT_TEST);
+      driver.navigate().to(DocuportConstants.DOCUPORT_TEST);
       driver.manage().window().maximize();
 
       // locate the element with css locator
@@ -40,22 +40,22 @@ public class Task4 {
 
       // get value of attributes
       String actualLogo = logoDocuport.getAttribute("alt");
-      String expectedLogo = DocuporConstans.EXPECTED_LOGO_DOCUPORT;
+      String expectedLogo = DocuportConstants.EXPECTED_LOGO_DOCUPORT;
 
       // validate the value
       if (expectedLogo.equals(actualLogo)){
-          System.out.println("Expected Logo: \"" + expectedLogo + "\" matches  actual Logo: " + DocuporConstans.EXPECTED_LOGO_DOCUPORT + "\" => TEST PASS");
+          System.out.println("Expected Logo: \"" + expectedLogo + "\" matches  actual Logo: " + DocuportConstants.EXPECTED_LOGO_DOCUPORT + "\" => TEST PASS");
       } else {
-          System.out.println("Expected Logo: \"" + expectedLogo + "\" DOES NOT match  actual Logo: \"" + DocuporConstans.EXPECTED_LOGO_DOCUPORT + "\" => TEST FAIL");
+          System.out.println("Expected Logo: \"" + expectedLogo + "\" DOES NOT match  actual Logo: \"" + DocuportConstants.EXPECTED_LOGO_DOCUPORT + "\" => TEST FAIL");
       }
 
       // locate username
         WebElement username = driver.findElement(By.cssSelector("input#input-14"));
-        username.sendKeys(DocuporConstans.USERNAME_CLIENT);
+        username.sendKeys(DocuportConstants.USERNAME_CLIENT);
 
         // locate password
         WebElement password = driver.findElement(By.cssSelector("input#input-15"));
-        password.sendKeys(DocuporConstans.PASSWORD_CLIENT);
+        password.sendKeys(DocuportConstants.PASSWORD_CLIENT);
 
 
         // locate login + login

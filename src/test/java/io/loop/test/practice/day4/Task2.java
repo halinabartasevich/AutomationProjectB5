@@ -1,13 +1,11 @@
 package io.loop.test.practice.day4;
 
-import io.loop.test.utilities.DocuporConstans;
+import io.loop.test.utilities.DocuportConstants;
 import io.loop.test.utilities.GeneralConstants;
 import io.loop.test.utilities.WebDriverUtil;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-
-import java.nio.file.WatchEvent;
 
 /*
 task 2
@@ -22,15 +20,15 @@ public class Task2 {
         driver.manage().window().maximize();
 
         // navigate to docuport application
-        driver.navigate().to(DocuporConstans.DOCUPORT_TEST);
+        driver.navigate().to(DocuportConstants.DOCUPORT_TEST);
 
         // locate username field + provide email
         WebElement username = driver.findElement(By.id("input-14"));
-        username.sendKeys(DocuporConstans.USERNAME_CLIENT);
+        username.sendKeys(DocuportConstants.USERNAME_CLIENT);
 
         // locate password field + provide password
         WebElement password = driver.findElement(By.id("input-15"));
-        password.sendKeys(DocuporConstans.PASSWORD_CLIENT);
+        password.sendKeys(DocuportConstants.PASSWORD_CLIENT);
 
         // // locate Login button + click
         WebElement loginButton = driver.findElement(By.cssSelector("span.v-btn__content"));

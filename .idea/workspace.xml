@@ -4,22 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="480aa928-3edb-4170-af1e-1eb44539d0b2" name="Changes" comment="day4">
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day5/T2_xpath_getText.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day5/T3_findElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day5/T4_radioButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day5/kT1_css_isDisplayed.java" afterDir="false" />
+    <list default="true" id="480aa928-3edb-4170-af1e-1eb44539d0b2" name="Changes" comment="day5new">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day6/T1_radioButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day6/T2_checkboxes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day6/T3_testNG_intro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day6/T4_testng_with_selenium.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day6/T5_simple_dropdown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day6/T6_dropdown_options.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day6/T7_multi_dropdown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day6/T8_HTML_dropdown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day6/day5/T1_css_isDisplayed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day6/day5/T2_xpath_getText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day6/day5/T3_findElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day6/day5/T4_radioButton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/day4/T1_DocuportLogin_getText.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day4/T1_DocuportLogin_getText.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/day4/T2_getText_getAtribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day4/T2_getText_getAtribute.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/day4/T3_css_practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day4/T3_css_practice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/day4/T4_forgot_password.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day4/T4_forgot_password.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/practice/Templates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/Templates.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/practice/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/practice/day3/Chrome.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/practice/day3/Target.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/practice/day4/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/practice/day4/Task1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/practice/day4/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/practice/day4/Task2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/practice/day4/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/practice/day4/Task3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/practice/day4/Task4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/practice/day4/Task4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/DocuporConstans.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/DocuportConstants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/GeneralConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/GeneralConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/LoopCampConstans.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/LoopCampConstans.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/LoopCampConstans.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/LoopCampConstants.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +47,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="day4" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -63,65 +74,69 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AllLocatorsPractice.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Chrome.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ChromeOptionsPractice.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GoogleSearch.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Halina.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Locators.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NavigateToAmazon.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SeleniumTEst.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SeleniumTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.T1_DocuportLogin_getText.executor&quot;: &quot;Run&quot;,
-    &quot;Application.T1_css_isDisplayed.executor&quot;: &quot;Run&quot;,
-    &quot;Application.T2_getText_getAtribute.executor&quot;: &quot;Run&quot;,
-    &quot;Application.T2_xpath_getText.executor&quot;: &quot;Run&quot;,
-    &quot;Application.T3_css_practice.executor&quot;: &quot;Run&quot;,
-    &quot;Application.T3_findElements.executor&quot;: &quot;Run&quot;,
-    &quot;Application.T4_forgot_password.executor&quot;: &quot;Run&quot;,
-    &quot;Application.T4_radioButton.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TO_Temu.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Target.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Temu.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.kT1_css_isDisplayed.executor&quot;: &quot;Run&quot;,
-    &quot;Application.myRun.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;day5&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Hbart/IdeaProjects/AutomationProjectB5&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Hbart/IdeaProjects/AutomationProjectB5/src/main/java/io/loop/test/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AllLocatorsPractice.executor": "Run",
+    "Application.Chrome.executor": "Run",
+    "Application.ChromeOptionsPractice.executor": "Run",
+    "Application.GoogleSearch.executor": "Run",
+    "Application.Halina.executor": "Run",
+    "Application.Locators.executor": "Run",
+    "Application.NavigateToAmazon.executor": "Run",
+    "Application.SeleniumTEst.executor": "Run",
+    "Application.SeleniumTest.executor": "Run",
+    "Application.T1_DocuportLogin_getText.executor": "Run",
+    "Application.T1_css_isDisplayed.executor": "Run",
+    "Application.T1_radioButton.executor": "Run",
+    "Application.T2_Checkboxes.executor": "Run",
+    "Application.T2_checkboxes.executor": "Run",
+    "Application.T2_getText_getAtribute.executor": "Run",
+    "Application.T2_xpath_getText.executor": "Run",
+    "Application.T3_css_practice.executor": "Run",
+    "Application.T3_findElements.executor": "Run",
+    "Application.T4_forgot_password.executor": "Run",
+    "Application.T4_radioButton.executor": "Run",
+    "Application.TO_Temu.executor": "Run",
+    "Application.Target.executor": "Run",
+    "Application.Task1.executor": "Run",
+    "Application.Temu.executor": "Run",
+    "Application.Test.executor": "Run",
+    "Application.io.loop.test.day6.day5.T3_findElements.executor": "Run",
+    "Application.kT1_css_isDisplayed.executor": "Run",
+    "Application.myRun.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.T3_Testng_intro.executor": "Run",
+    "TestNG.T3_testNG_intro.executor": "Run",
+    "TestNG.T3_testNG_intro.test1.executor": "Run",
+    "TestNG.T4_testng_with_selenium (1).executor": "Run",
+    "TestNG.T4_testng_with_selenium.executor": "Run",
+    "TestNG.T5_simple_dropdown.dropDownTest.executor": "Run",
+    "TestNG.T5_simple_dropdown.executor": "Run",
+    "TestNG.T6_dropdown_options.colorTest.executor": "Run",
+    "TestNG.T6_dropdown_options.executor": "Run",
+    "TestNG.T7_multi_dropdown.executor": "Run",
+    "TestNG.T8_HTML_dropdown.executor": "Run",
+    "TestNG.T8_HTML_dropdown.htmlDropdown.executor": "Run",
+    "git-widget-placeholder": "day6",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Hbart/IdeaProjects/AutomationProjectB5",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/Hbart/IdeaProjects/AutomationProjectB5/src/main/java/io/loop/test/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.T3_findElements">
-    <configuration name="Chrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.loop.test.practice.day3.Chrome" />
-      <module name="AutomationProjectB5" />
-      <option name="VM_PARAMETERS" value="--enable-native-access=ALL-UNNAMED" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.loop.test.practice.day3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Halina" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="io.loop.test.day5.T2_xpath_getText" />
       <module name="AutomationProjectB5" />
@@ -131,11 +146,12 @@
       </method>
     </configuration>
     <configuration name="T1_css_isDisplayed" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.loop.test.day5.T1_css_isDisplayed" />
+      <option name="MAIN_CLASS_NAME" value="io.loop.test.day6.day5.T1_css_isDisplayed" />
       <module name="AutomationProjectB5" />
+      <option name="VM_PARAMETERS" value="--enable-native-access=ALL-UNNAMED" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.loop.test.day5.*" />
+          <option name="PATTERN" value="io.loop.test.day6.day5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,26 +160,12 @@
       </method>
     </configuration>
     <configuration name="T3_findElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.loop.test.day5.T3_findElements" />
+      <option name="MAIN_CLASS_NAME" value="io.loop.test.day6.day5.T3_findElements" />
       <module name="AutomationProjectB5" />
       <option name="VM_PARAMETERS" value="--enable-native-access=ALL-UNNAMED" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.loop.test.day5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="T4_radioButton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.loop.test.day5.T4_radioButton" />
-      <module name="AutomationProjectB5" />
-      <option name="VM_PARAMETERS" value="--enable-native-access=ALL-UNNAMED" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.loop.test.day5.*" />
+          <option name="PATTERN" value="io.loop.test.day6.day5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,20 +176,6 @@
     <configuration default="true" type="Application" factoryName="Application">
       <module name="AutomationProjectB5" />
       <option name="VM_PARAMETERS" value="--enable-native-access=ALL-UNNAMED" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="kT1_css_isDisplayed" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.loop.test.day5.kT1_css_isDisplayed" />
-      <module name="AutomationProjectB5" />
-      <option name="VM_PARAMETERS" value="--enable-native-access=ALL-UNNAMED" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.loop.test.day5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -212,22 +200,73 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="T6_dropdown_options" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationProjectB5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.loop.test.day6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.loop.test.day6" />
+      <option name="MAIN_CLASS_NAME" value="io.loop.test.day6.T6_dropdown_options" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T7_multi_dropdown" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationProjectB5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.loop.test.day6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.loop.test.day6" />
+      <option name="MAIN_CLASS_NAME" value="io.loop.test.day6.T7_multi_dropdown" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T8_HTML_dropdown" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationProjectB5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.loop.test.day6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.loop.test.day6" />
+      <option name="MAIN_CLASS_NAME" value="io.loop.test.day6.T8_HTML_dropdown" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Halina" />
-      <item itemvalue="Application.kT1_css_isDisplayed" />
-      <item itemvalue="Application.T3_findElements" />
-      <item itemvalue="Application.T4_radioButton" />
-      <item itemvalue="Application.Chrome" />
       <item itemvalue="Application.T1_css_isDisplayed" />
+      <item itemvalue="Application.T3_findElements" />
       <item itemvalue="TestNG.Halina" />
+      <item itemvalue="TestNG.T6_dropdown_options" />
+      <item itemvalue="TestNG.T7_multi_dropdown" />
+      <item itemvalue="TestNG.T8_HTML_dropdown" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.T3_findElements" />
-        <item itemvalue="Application.kT1_css_isDisplayed" />
         <item itemvalue="Application.T1_css_isDisplayed" />
-        <item itemvalue="Application.T4_radioButton" />
-        <item itemvalue="Application.Chrome" />
+        <item itemvalue="TestNG.T8_HTML_dropdown" />
+        <item itemvalue="TestNG.T7_multi_dropdown" />
+        <item itemvalue="TestNG.T6_dropdown_options" />
       </list>
     </recent_temporary>
   </component>
@@ -288,6 +327,11 @@
       <workItem from="1755403927486" duration="34000" />
       <workItem from="1755404220137" duration="16000" />
       <workItem from="1755404282088" duration="49000" />
+      <workItem from="1755460162916" duration="18000" />
+      <workItem from="1755460618365" duration="29000" />
+      <workItem from="1755460684349" duration="227000" />
+      <workItem from="1755532135129" duration="2728000" />
+      <workItem from="1755534900320" duration="5410000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <option name="closed" value="true" />
@@ -360,14 +404,44 @@
           <line>26</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/io/loop/test/day4/T3_css_practice.java</url>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/io/loop/test/day6/T2_checkboxes.java</url>
           <line>27</line>
-          <properties class="io.loop.test.day4.T3_css_practice" method="main">
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/io/loop/test/day6/T3_testNG_intro.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/io/loop/test/day6/T6_dropdown_options.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/io/loop/test/day6/T8_HTML_dropdown.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/io/loop/test/day6/day5/T3_findElements.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/io/loop/test/day6/T6_dropdown_options.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/io/loop/test/day6/T8_HTML_dropdown.java</url>
+          <line>33</line>
+          <properties class="io.loop.test.day6.T8_HTML_dropdown" method="htmlDropdown">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
-          <option name="timeStamp" value="4" />
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
