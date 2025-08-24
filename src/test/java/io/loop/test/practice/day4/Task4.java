@@ -55,7 +55,7 @@ public class Task4 {
 
         // locate password
         WebElement password = driver.findElement(By.cssSelector("input#input-15"));
-        password.sendKeys(DocuportConstants.PASSWORD_CLIENT);
+        password.sendKeys(DocuportConstants.PASSWORD);
 
 
         // locate login + login

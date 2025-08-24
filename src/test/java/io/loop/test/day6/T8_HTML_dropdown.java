@@ -37,7 +37,7 @@ public class T8_HTML_dropdown {
         WebElement singIn = driver.findElement(By.className("v-btn__content"));
 
         username.sendKeys(DocuportConstants.USERNAME_CLIENT);
-        password.sendKeys(DocuportConstants.PASSWORD_CLIENT);
+        password.sendKeys(DocuportConstants.PASSWORD);
         singIn.click();
 
         WebElement dropdown = driver.findElement(By.xpath("//input[@id='input-86']"));
