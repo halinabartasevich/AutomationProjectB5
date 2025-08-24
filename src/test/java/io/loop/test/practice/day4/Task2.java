@@ -28,7 +28,7 @@ public class Task2 {
 
         // locate password field + provide password
         WebElement password = driver.findElement(By.id("input-15"));
-        password.sendKeys(DocuportConstants.PASSWORD_CLIENT);
+        password.sendKeys(DocuportConstants.PASSWORD);
 
         // // locate Login button + click
         WebElement loginButton = driver.findElement(By.cssSelector("span.v-btn__content"));

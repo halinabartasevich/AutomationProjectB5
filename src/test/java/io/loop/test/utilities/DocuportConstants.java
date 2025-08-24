@@ -11,12 +11,8 @@ public class DocuportConstants {
     public static final String USERNAME_EMPLOYEE = "b1g1_employee@gmail.com";
 
 
-    //passwords for roles
-    public  static final String PASSWORD_CLIENT = "Group1";
-    public  static final String ADVISOR = "Group2";
-    public  static final String SUPERVISOR = "Group2";
-    public  static final String EMPLOYEE = "Group2";
-
+    //passwords
+ public  static final String PASSWORD = "Group1";
 
 
 // message
@@ -30,5 +26,16 @@ public static  final String RESET_PASSWORD_MESSAGE = "Enter the email address as
 
     // forgot password url
     public static final String FORGOT_PASSWORD_URL = "https://beta.docuport.app/reset-password";
+
+
+    // email for reset password
+    public static final String EMAIL_FOR_RESET_PASSWORD = "forgotpasswordg1@gmail.com";;
+
+
+    // roles
+    public static String ADVISOR = "advisor";
+    public static String CLIENT = "client";
+    public static String SUPERVISOR = "supervisor";
+    public static String EMPLOYEE = "employee";
 
 }
